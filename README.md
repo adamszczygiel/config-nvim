@@ -1,5 +1,5 @@
 # config-nvim
-My attempts to configure neovim
+My attempts to configure neovim, based on LazyVim (https://github.com/LazyVim/LazyVim)
 
 # Installation
 
@@ -19,3 +19,8 @@ or
 ```
 git clone git@github.com:adamszczygiel/config-nvim.git ~/.config/nvim
 ```
+
+#TODO: ### Investigate deeper the LazyVim
+- [ ] Check the licensing issues (MIT -> Apache)
+- [ ] Check which plugins use .neoconf.json and stylua.toml files and whether they are needed
+- [ ] Go through default plugins and check which of them will not be needed for me
