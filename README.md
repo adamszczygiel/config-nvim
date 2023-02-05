@@ -15,3 +15,7 @@ Clone the repo:
 ```
 git clone https://github.com/adamszczygiel/config-nvim.git ~/.config/nvim
 ```
+or
+```
+git clone git@github.com:adamszczygiel/config-nvim.git ~/.config/nvim
+```
