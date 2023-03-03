@@ -25,6 +25,10 @@ return {
 
       -- Show hostname instead of clock symbol and time in section z
       opts.sections.lualine_z = { "hostname" }
+
+      -- Disable fancy separators, as they are missaligned for most fonts
+      opts.options.section_separators = ""
+      opts.options.component_separators = ""
     end,
   },
 }
